@@ -9,7 +9,9 @@ import particles from "./components/particle2";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
-
+import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
+import Resume from "./components/Resume/ResumeNew";
 
 import "./style.css";
 import "./App.css";
@@ -41,6 +43,9 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/project" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} />
         </Switch>
         <Footer />
       </Animate>
