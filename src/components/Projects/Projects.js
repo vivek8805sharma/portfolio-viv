@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import vms from "../../Assets/Projects/vms.jpg";
+import netflix from "../../Assets/Projects/netflix.jpg";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import emailAuto from "../../Assets/Projects/emailAutomation.jpg";
 import shopping from "../../Assets/Projects/shopping.jpg";
@@ -42,6 +43,16 @@ function Projects() {
               core, spring boot, Rest api and micro services.
               Also wrote the unit tests with 90 % coverage."
               link="https://github.com/vivek8805sharma/VaccineManagementSystem"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone App"
+              description="Created a clone of netflix web app using react js framework as front end by consuming a rest api for the videos."
+              link="https://github.com/vivek8805sharma/"
             />
           </Col>
 
