@@ -32,7 +32,7 @@ function CodingProfile() {
           <div style={{ height: 40 }}>
             {isVisible ? 
             <CountUp start={0}
-  end={402} 
+  end={432} 
   duration={2.75} /> : null}
           </div>
         )}

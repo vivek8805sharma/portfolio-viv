@@ -8,6 +8,7 @@ import emotion from "../../Assets/Projects/emotion.jpeg";
 import emailAuto from "../../Assets/Projects/emailAutomation.jpg";
 import shopping from "../../Assets/Projects/shopping.jpg";
 import iitm from "../../Assets/Projects/iitm.png";
+import cms from "../../Assets/Projects/cms.png";
 
 function Projects() {
   return (
@@ -28,7 +29,7 @@ function Projects() {
               title="Spring-boot microservice with centralized authentication"
               description="Created microservices in spring boot for shopping website with exposed REST endpoints secured by JWT authentication.
               Used zuul for api gateway, eureka service discovery and json web tokens."
-              link="https://github.com/vivek8805sharma/"
+              link="https://github.com/vivek8805sharma/Spring-boot-Jwt-authentication"
             />
           </Col>
 
@@ -52,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Netflix Clone App"
               description="Created a clone of netflix web app using react js framework as front end by consuming a rest api for the videos."
-              link="https://github.com/vivek8805sharma/"
+              link="https://github.com/vivek8805sharma/netflix-clone"
             />
           </Col>
 
@@ -93,7 +94,18 @@ function Projects() {
               isBlog={false}
               title="Email automation"
               description="Created a spring boot app to automate the the process of sending mails to a large group of mail ids, with same or different content."
-              link="https://github.com/vivek8805sharma/"
+              link="https://github.com/vivek8805sharma/EmailAutomation"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cms}
+              isBlog={false}
+              title="Course Management System"
+              description="Created RESTful API's to perform CRUD operations on students and courses.
+              Also created api's to perform student registrations under courses. Also added swagger configuration."
+              link="https://github.com/vivek8805sharma/courseManagementSystem"
             />
           </Col>
         </Row>

@@ -43,7 +43,7 @@ function WorkEducation() {
                        </div>
 
                        <div className="work-edu">
-                            <h3><VscDebugBreakpointLog/><span className="purple">Indian Institute of Tropical Mterology, Pune</span></h3>
+                            <h3><VscDebugBreakpointLog/><span className="purple">Indian Institute of Tropical Metrology, Pune</span></h3>
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
                             
@@ -56,7 +56,7 @@ function WorkEducation() {
                        </div>
 
                        <div className="work-edu">
-                            <h3><VscDebugBreakpointLog/><span className="purple">Tech mahindra, Pune</span></h3>
+                            <h3><VscDebugBreakpointLog/><span className="purple">Tech Mahindra, Pune</span></h3>
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
                             <span>&bull;</span>Intern <em className="date">(Jan 2019</em> - <em className="date">Mar-2019)</em></p>
