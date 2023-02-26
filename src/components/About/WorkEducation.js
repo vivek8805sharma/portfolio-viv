@@ -15,12 +15,23 @@ function WorkEducation() {
     </TabList>
 
 <TabPanel>
+                        <div className="work-edu">
+                            <h3><VscDebugBreakpointLog/><span className="purple">Amazon, Hyderabad(hyd13)</span></h3>
+                            <div style={{paddingLeft:"50px"}}>
+                            <p className="info">
+                            
+                            <span>&bull;</span>Software Development Engineer 1 <em className="date">(April 2022</em> - <em className="date">Present)</em></p>
+                            <ul>
+                                <li>Working as full stack on an authorization and data privacy project in Amazon.</li>
+                            </ul>
+                            </div>
+                       </div>
                        <div className="work-edu">
                             <h3><VscDebugBreakpointLog/><span className="purple">EPAM, Hyderabad</span></h3>
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
                             
-                            <span>&bull;</span>Junior Software Engineer <em className="date">(May 2021</em> - <em className="date">Present)</em></p>
+                            <span>&bull;</span>Junior Software Engineer <em className="date">(May 2021</em> - <em className="date">Apr 2022)</em></p>
                             <ul>
                                 <li>Working for Clarivate Analytics to develop backend microservices in spring boot for their web app.</li>
                                 <li>Worked on new feature development and writing junit test cases for the same with code coverage of above 85 %.</li>
@@ -33,7 +44,7 @@ function WorkEducation() {
                             <h3><VscDebugBreakpointLog/><span className="purple">MAQ Software, Hyderabad</span></h3>
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
-                            <span>&bull;</span>Software Engineer 1 <em className="date">(Nov 2020</em> - <em className="date">Apr-2021)</em></p>
+                            <span>&bull;</span>Software Engineer 1 <em className="date">(Nov 2020</em> - <em className="date">Apr 2021)</em></p>
                             <ul>
                                 <li>Worked for Microsoft to create React JS components for their web application.</li>
                                 <li>Also worked on backend Microservices for feature development for the same. </li>
@@ -47,7 +58,7 @@ function WorkEducation() {
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
                             
-                            <span>&bull;</span>Project Intern <em className="date">(July 2019</em> - <em className="date">Apr-2020)</em></p>
+                            <span>&bull;</span>Project Intern <em className="date">(July 2019</em> - <em className="date">Apr 2020)</em></p>
                             <ul>
                                 <li>Worked for IITM , Pune to collect the data for cloud reflectivity values obtained form the Mumbai weather radar station and perform data cleaning.</li>
                                 <li>Used this data to create machine learning models to predict the cloud reflectivity values.</li>
@@ -59,7 +70,7 @@ function WorkEducation() {
                             <h3><VscDebugBreakpointLog/><span className="purple">Tech Mahindra, Pune</span></h3>
                             <div style={{paddingLeft:"50px"}}>
                             <p className="info">
-                            <span>&bull;</span>Intern <em className="date">(Jan 2019</em> - <em className="date">Mar-2019)</em></p>
+                            <span>&bull;</span>Intern <em className="date">(Jan 2019</em> - <em className="date">Mar 2019)</em></p>
                             <ul>
                                 <li> Made a device to recognize emotions of cab drivers and send audio messages to them remotely in any regional language.</li>
                                 <li>Used machine learning algorithms to capture emotions and send the data to a central server and then send back text to speech audio.</li>

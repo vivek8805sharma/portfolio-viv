@@ -6,6 +6,7 @@ import {
   SiJupyter,
   SiPostman,
   SiHeroku,
+  SiIntellijidea
 } from "react-icons/si";
 import {
   DiEclipse,
@@ -14,6 +15,9 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiEclipse />
       </Col>
